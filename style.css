@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(241 243 226);
+}
+
+a {
+    color: #d89cac;
+}
+
+.table>thead {
+    background-color: #c3c7a5;
+}
+
+a:hover {
+    color: #528fbb;
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.884);
+    --bs-table-striped-color: #5a3143;
+    --bs-table-striped-bg: rgb(247 206 217 / 45%);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgb(243 160 218 / 74%);
+    --bs-table-hover-color: #528fbb5e;
+    --bs-table-hover-bg: rgb(241 243 226 / 65%)
+}
+
+.banner{
+    padding-top: 52px;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    background-image: url('./assets/TenseExcitableGilamonster-small.gif');
+    background-size: cover;
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/c408595750.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Japanese Holidays!</title>
+</head>
+<body>
+     <div class="container-xl clear-padding">
+        <div class="banner">
+            <h1 class="text-center">Japanese Holidays 2021🎌</h1>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="mb-3">Japan has a total of 31 holidays in 2021. In the table below, you will find the details of the holidays and when they are observed. All data is taken directly from <a href="https://calendarific.com/">Calendarific</a>. These dates may be modified as official changes are announced, so please check back regularly for updates or sign up for Calendarific's newsletter to receive regular updates. All updates are automatically added to the base API as well.</div>
+        </div>
+        <table class="table table-borderless table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Holiday</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Details</th>
+                </tr>
+            </thead>
+            <tbody id="holidayz">
+            </tbody>
+        </table>
+    </div>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
